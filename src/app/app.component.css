@@ -1,4 +1,17 @@
+
+app-header {
+    text-align: center;
+}
+
+
 .box {
+    border: 1px solid black;
+    width: fit-content;
     display: flex;
-    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box * {
+    padding-inline-start: 0 !important;
 }
